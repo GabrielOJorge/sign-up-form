@@ -2,3 +2,8 @@
   width: 100%;
   height: 20rem;
 }
+
+.logo-aside div {
+  display: flex;
+  align-items: center;
+}

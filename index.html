@@ -11,43 +11,48 @@
   <link rel="stylesheet" href="src/style/generic/reset.css">
   <link rel="stylesheet" href="src/style/elements/base.css">
   <link rel="stylesheet" href="src/style/settings/colors.css">
+  <link rel="stylesheet" href="src/components/main-form/main-form.css">
+  <link rel="stylesheet" href="src/components/logo-aside/logo-aside.css">
 </head>
 <body>
-  <aside>
+  <aside class="logo-aside">
     <div>
-      <img src="#" alt="logo">
+      <img class="logo" src="src/assets/img/logo.png" alt="logo">
       <h1>Ophelia</h1>
     </div>
   </aside>
   <main>
-    <form action="#" method="post">
+    <form action="#" method="post" class="main-form">
       <p>
-        This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.
+        This is not a real online service! You know you need something <br> like this in your life to help you realize your deepest dreams. <br> Sign up now to get started.
+        <br>
         <br>
         You know you want to.
       </p>
 
       <div>
         <h1>Let's do this!</h1>
-        <div>
-          <label for="f-name">First Name</label>
-          <input type="text" name="f-name" id="f-name">
-
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email">
-
-          <label for="pwd">Password</label>
-          <input type="password" name="pwd" id="pwd">
-        </div>
-        <div>
-          <label for="l-name">Last Name</label>
-          <input type="text" name="l-name" id="l-name">
-
-          <label for="p-number">Phone Number</label>
-          <input type="tel" name="p-number" id="p-number">
-
-          <label for="c-pwd">Confirm Password</label>
-          <input type="password" name="c-pwd" id="c-pwd">
+        <div class="controls">
+          <div class="left">
+            <label for="f-name">First Name</label>
+            <input type="text" name="f-name" id="f-name">
+  
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+  
+            <label for="pwd">Password</label>
+            <input type="password" name="pwd" id="pwd">
+          </div>
+          <div class="right">
+            <label for="l-name">Last Name</label>
+            <input type="text" name="l-name" id="l-name">
+  
+            <label for="p-number">Phone Number</label>
+            <input type="tel" name="p-number" id="p-number">
+  
+            <label for="c-pwd">Confirm Password</label>
+            <input type="password" name="c-pwd" id="c-pwd">
+          </div>
         </div>
       </div>
 
