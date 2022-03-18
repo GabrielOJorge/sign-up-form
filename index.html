@@ -4,12 +4,53 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sign-Up Form</title>
+  <title>Sign Up Form</title>
   <link rel="stylesheet" href="src/style/generic/reset.css">
   <link rel="stylesheet" href="src/style/elements/base.css">
   <link rel="stylesheet" href="src/style/settings/colors.css">
 </head>
 <body>
-  
+  <aside>
+    <div>
+      <img src="#" alt="logo">
+      <h1>Vanitas</h1>
+    </div>
+  </aside>
+  <main>
+    <form action="#" method="post">
+      <p>
+        This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.
+        <br>
+        You know you want to.
+      </p>
+
+      <div>
+        <div>
+          <input type="text" name="f-name" id="f-name">
+          <label for="f-name">First Name</label>
+
+          <input type="email" name="email" id="email">
+          <label for="email">Email</label>
+
+          <input type="password" name="pwd" id="pwd">
+          <label for="pwd">Password</label>
+        </div>
+        <div>
+          <input type="text" name="l-name" id="l-name">
+          <label for="l-name">Last Name</label>
+
+          <input type="tel" name="p-number" id="p-number">
+          <label for="p-number">Phone Number</label>
+
+          <input type="password" name="c-pwd" id="c-pwd">
+          <label for="c-pwd">Confirm Password</label>
+        </div>
+      </div>
+
+      <button type="submit">Create Account</button>
+    </form>
+
+    <p>Already have an account? <a href="#">Log in</a></p>
+  </main>
 </body>
 </html>
