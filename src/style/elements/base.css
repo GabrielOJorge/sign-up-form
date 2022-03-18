@@ -1,7 +1,8 @@
 body {
   height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 main {

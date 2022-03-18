@@ -1,6 +1,11 @@
 .logo-aside {
   width: 100%;
-  height: 20rem;
+  background: url(../../assets/img/ophelia-francis-dicksee.png) no-repeat;
+  background-position-y: -5rem;
+  background-size: 100%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
 }
 
 .logo-aside div {
