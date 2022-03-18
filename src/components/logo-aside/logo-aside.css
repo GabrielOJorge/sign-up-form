@@ -12,3 +12,14 @@
   display: flex;
   align-items: center;
 }
+
+.logo-aside img {
+  width: min(80px, 40%);
+}
+
+.logo-aside h1 {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(3rem, 5rem, 4vw);
+  font-weight: 600;
+  color: #fff;
+}
