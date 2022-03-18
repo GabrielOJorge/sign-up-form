@@ -3,3 +3,8 @@ body {
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+}
