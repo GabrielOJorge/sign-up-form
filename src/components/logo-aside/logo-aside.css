@@ -11,6 +11,7 @@
 .logo-aside div {
   display: flex;
   align-items: center;
+  gap: 1rem;
 }
 
 .logo-aside img {
