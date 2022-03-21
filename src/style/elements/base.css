@@ -2,6 +2,7 @@ body {
   height: 100vh;
   display: grid;
   grid-template-rows: 1fr 2fr;
+  font-family: 'Open Sans', sans-serif;
 }
 
 main {
@@ -14,4 +15,9 @@ main {
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
+}
+
+main p:first-child {
+  font-weight: 700;
+  font-size: clamp(2rem, 2.5rem, 4vw);
 }
