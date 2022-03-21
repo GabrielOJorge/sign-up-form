@@ -1,6 +1,7 @@
 .logo-aside {
   display: flex;
   justify-content: center;
+  align-items: center;
   background: url(../../assets/img/ophelia-francis-dicksee.png) no-repeat;
   background-position-y: -3.5rem;
   background-size: cover;
