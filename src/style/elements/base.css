@@ -21,6 +21,7 @@ form {
 main p:first-child {
   font-weight: 700;
   font-size: clamp(1.4rem, 2rem, 4vw);
+  line-height: 25px;
 }
 
 @media (min-width: 800px) {
