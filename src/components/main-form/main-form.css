@@ -9,6 +9,11 @@
   flex-direction: column;
 }
 
+.main-form > div {
+  width: 100%;
+  gap: 2rem;
+}
+
 .main-form h1 {
   font-size: clamp(1.4rem, 2.2rem, 4vw);
   font-weight: 700;
