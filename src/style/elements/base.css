@@ -12,6 +12,7 @@ main {
   align-items: flex-start;
   justify-content: center;
   justify-self: center;
+  gap: 5rem;
 }
 
 form {
