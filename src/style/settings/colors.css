@@ -1,4 +1,5 @@
 :root {
   --clr-dark-green: #1C1A15;
   --clr-light-shade-dark-green: #25231a;
+  --clr-light-shade-dark-green-low-op: rgba(37, 35, 26, 0.5);
 }
