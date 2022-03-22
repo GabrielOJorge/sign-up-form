@@ -13,6 +13,7 @@ button, input {
 
 button {
   border-style: none;
+  cursor: pointer;
 }
 
 label {
