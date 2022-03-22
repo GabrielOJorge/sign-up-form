@@ -31,9 +31,6 @@ main {
   gap: 3rem;
 }
 
-main > :nth-child(odd) {
-  padding-left: 4rem;
-}
 
 form {
   width: 100%;
@@ -49,8 +46,12 @@ main p:first-child {
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
-
+  
   main {
     width: 100%;
+  }
+  
+  main > :nth-child(odd) {
+    padding-left: 4rem;
   }
 }
