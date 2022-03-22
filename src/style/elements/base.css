@@ -7,6 +7,10 @@ body {
   color: #fff;
 }
 
+button, input {
+  font-family: 'Open Sans', sans-serif;
+}
+
 main {
   width: 90%;
   display: flex;
