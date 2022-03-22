@@ -29,6 +29,7 @@ main {
   justify-content: center;
   justify-self: center;
   gap: 3rem;
+  padding: 3rem 0;
 }
 
 
@@ -50,7 +51,7 @@ main p:first-child {
   main {
     width: 100%;
   }
-  
+
   main > :nth-child(odd) {
     padding-left: 4rem;
   }
