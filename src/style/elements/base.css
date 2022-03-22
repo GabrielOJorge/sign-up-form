@@ -32,6 +32,10 @@ main {
   padding: 3rem 0;
 }
 
+main > div {
+  font-size: clamp(1.4rem, 1.6rem, 2vw);
+  font-weight: 500;
+}
 
 form {
   width: 100%;
