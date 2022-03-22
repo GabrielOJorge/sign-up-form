@@ -12,6 +12,7 @@
 .main-form > div {
   width: 100%;
   gap: 2rem;
+  background-color: var(--clr-light-shade-dark-green);
 }
 
 .main-form h1 {
