@@ -26,6 +26,10 @@ main {
   gap: 3rem;
 }
 
+main > :nth-child(odd) {
+  padding-left: 4rem;
+}
+
 form {
   width: 100%;
 }
