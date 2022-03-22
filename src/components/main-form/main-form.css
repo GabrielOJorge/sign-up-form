@@ -10,9 +10,11 @@
 }
 
 .main-form > div {
-  width: 100%;
-  gap: 2rem;
-  background-color: var(--clr-light-shade-dark-green);
+	width: 100%;
+	gap: 2rem;
+	padding: 2.5rem;
+	border-radius: 10px;
+	background-color: var(--clr-light-shade-dark-green);
 }
 
 .main-form h1 {
