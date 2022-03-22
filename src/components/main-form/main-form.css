@@ -30,6 +30,10 @@
   gap: 1rem;
 }
 
+.controls > div > div {
+  gap: .5rem;
+}
+
 @media (min-width: 800px) {
   .main-form > div {
     padding: 20px 0 20px 40px;
