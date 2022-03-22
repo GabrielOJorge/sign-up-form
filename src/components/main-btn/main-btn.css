@@ -2,7 +2,7 @@
   padding: 1rem 4rem;
   margin-bottom: 3rem;
   border-radius: 5px;
-  background-color: #E4DEAE;
+  background-color: var(--clr-tusk);
   color: var(--clr-dark-green);
   font-size: clamp(1.4rem, 1.6rem, 2vw);
   font-weight: 700;
