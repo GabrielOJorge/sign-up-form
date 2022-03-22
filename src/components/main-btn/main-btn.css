@@ -3,4 +3,6 @@
   border-radius: 5px;
   background-color: #E4DEAE;
   color: var(--clr-dark-green);
+  font-size: clamp(1.4rem, 1.6rem, 2vw);
+  font-weight: 700;
 }
