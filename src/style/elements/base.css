@@ -40,4 +40,8 @@ main p:first-child {
     display: grid;
     grid-template-columns: 1fr 2fr;
   }
+
+  main {
+    width: 100%;
+  }
 }
