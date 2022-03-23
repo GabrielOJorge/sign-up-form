@@ -20,6 +20,14 @@ button {
   cursor: pointer;
 }
 
+input {
+  border-style: none;
+  border-radius: 3px;
+  padding: 5px 40px 5px 5px;
+  font-size: clamp(1.2rem, 1.4rem, 2vw);
+  font-weight: 500;
+}
+
 input:focus {
   outline: 1px solid var(--clr-tusk);
   box-shadow: 1px 1px 3px var(--clr-shadow);
