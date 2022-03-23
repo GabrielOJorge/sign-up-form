@@ -20,6 +20,11 @@ button {
   cursor: pointer;
 }
 
+input:focus {
+  outline: 1px solid var(--clr-tusk);
+  box-shadow: 1px 1px 3px var(--clr-shadow);
+}
+
 label {
   font-size: clamp(1.2rem, 1.4rem, 2vw);
   font-weight: 500;
