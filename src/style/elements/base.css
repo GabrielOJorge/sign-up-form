@@ -1,10 +1,14 @@
 body {
   height: 100vh;
   display: grid;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: 2fr 2fr;
   font-family: 'Open Sans', sans-serif;
   background-color: var(--clr-dark-green);
   color: #fff;
+}
+
+aside {
+  height: 200px;
 }
 
 button, input {
