@@ -36,7 +36,7 @@
 
 @media (min-width: 800px) {
   .main-form > div {
-    padding: 20px 0 20px 40px;
+    padding: 20px 40px 30px;
     border-radius: initial;
   }
 
