@@ -6,4 +6,10 @@
   color: var(--clr-dark-green);
   font-size: clamp(1.4rem, 1.6rem, 2vw);
   font-weight: 700;
+  transition: all .2s ease-in-out;
+}
+
+.main-btn:hover {
+  transform: scale(1.02);
+  box-shadow: 1px 1px 3px var(--clr-light-shadow);
 }
