@@ -58,6 +58,11 @@ a {
   text-decoration: none;
   color: var(--clr-tusk);
   font-weight: 700;
+  transition: color .3s ease-out;
+}
+
+a:hover {
+  color: var(--clr-link-hover);
 }
 
 form {
