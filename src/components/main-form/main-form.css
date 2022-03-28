@@ -34,6 +34,10 @@
   gap: .5rem;
 }
 
+.error {
+  outline: 1px solid red;
+}
+
 @media (min-width: 800px) {
   .main-form > div {
     padding: 20px 40px 30px;
