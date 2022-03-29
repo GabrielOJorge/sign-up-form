@@ -34,8 +34,12 @@
   gap: .5rem;
 }
 
+.valid {
+  outline: 1.5px solid green;
+}
+
 .error {
-  outline: 1px solid red;
+  outline: 1.5px solid red;
 }
 
 @media (min-width: 800px) {
