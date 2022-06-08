@@ -21,7 +21,7 @@
 
 ### Links
 
-- Live Site URL: [Sign Up Form](https://gabrielojorge.github.io/calculator/).
+- Live Site URL: [Sign Up Form](https://gabrielojorge.github.io/sign-up-form/).
 
 ## Style Guide
 
